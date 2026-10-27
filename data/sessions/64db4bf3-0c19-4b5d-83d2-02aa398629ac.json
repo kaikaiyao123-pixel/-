@@ -1,0 +1,173 @@
+{
+  "id": "64db4bf3-0c19-4b5d-83d2-02aa398629ac",
+  "title": "分析东方财富最近 10 天的股价和成交量。",
+  "createdAt": "2026-10-24T12:27:03.123Z",
+  "updatedAt": "2026-10-24T12:27:03.170Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析东方财富最近 10 天的股价和成交量。",
+      "request": {
+        "request": "分析东方财富最近 10 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "ccf2f3ac-00e5-4821-8aed-379d190b6bee",
+      "sessionId": "64db4bf3-0c19-4b5d-83d2-02aa398629ac",
+      "createdAt": "2026-10-24T12:27:03.150Z"
+    },
+    {
+      "role": "assistant",
+      "content": "10 个交易日内，东方财富股价下跌 2.53%，最大单日跌幅为 -4.58%。",
+      "request": null,
+      "schema": {
+        "stockId": "A",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 10,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "东方财富",
+        "stockCode": "300059.SZ",
+        "title": "东方财富（300059.SZ）最近10天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": "问财 Skill Hub 不可用，已回退到本地模拟数据：问财 Skill Hub 未配置服务地址。",
+        "dataAsOf": "2026-10-29 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "10/16",
+            "price": 125.47,
+            "open": 128.4,
+            "change": -2.28,
+            "volume": 1037
+          },
+          {
+            "date": "10/17",
+            "price": 127,
+            "open": 125.47,
+            "change": 1.22,
+            "volume": 1026
+          },
+          {
+            "date": "10/20",
+            "price": 127.41,
+            "open": 127,
+            "change": 0.32,
+            "volume": 1012
+          },
+          {
+            "date": "10/21",
+            "price": 121.57,
+            "open": 127.41,
+            "change": -4.58,
+            "volume": 1661
+          },
+          {
+            "date": "10/22",
+            "price": 124.51,
+            "open": 121.57,
+            "change": 2.42,
+            "volume": 1484
+          },
+          {
+            "date": "10/23",
+            "price": 122.79,
+            "open": 124.51,
+            "change": -1.38,
+            "volume": 1433
+          },
+          {
+            "date": "10/24",
+            "price": 124.78,
+            "open": 122.79,
+            "change": 1.62,
+            "volume": 1569
+          },
+          {
+            "date": "10/27",
+            "price": 123.81,
+            "open": 124.78,
+            "change": -0.78,
+            "volume": 1523
+          },
+          {
+            "date": "10/28",
+            "price": 126.19,
+            "open": 123.81,
+            "change": 1.92,
+            "volume": 931
+          },
+          {
+            "date": "10/29",
+            "price": 122.3,
+            "open": 126.19,
+            "change": -3.08,
+            "volume": 1155
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/21",
+            "price": 121.57,
+            "open": 127.41,
+            "change": -4.58,
+            "volume": 1661
+          },
+          {
+            "date": "10/29",
+            "price": 122.3,
+            "open": 126.19,
+            "change": -3.08,
+            "volume": 1155
+          },
+          {
+            "date": "10/16",
+            "price": 125.47,
+            "open": 128.4,
+            "change": -2.28,
+            "volume": 1037
+          }
+        ],
+        "insight": "10 个交易日内，东方财富股价下跌 2.53%，最大单日跌幅为 -4.58%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "ae6992b2-a4ba-4449-94ea-e886d64e7245",
+      "sessionId": "64db4bf3-0c19-4b5d-83d2-02aa398629ac",
+      "createdAt": "2026-10-24T12:27:03.170Z"
+    }
+  ]
+}

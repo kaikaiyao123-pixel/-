@@ -1,0 +1,173 @@
+{
+  "id": "9866cbc9-97ab-4a34-b4d1-6871432cd44e",
+  "title": "看看贵州茅台最近 10 天的涨跌幅。",
+  "createdAt": "2026-10-24T12:45:50.062Z",
+  "updatedAt": "2026-10-24T12:45:50.118Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "看看贵州茅台最近 10 天的涨跌幅。",
+      "request": {
+        "request": "看看贵州茅台最近 10 天的涨跌幅。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "b7a833c3-148f-4d62-af72-a9d6ff2cbcd8",
+      "sessionId": "9866cbc9-97ab-4a34-b4d1-6871432cd44e",
+      "createdAt": "2026-10-24T12:45:50.098Z"
+    },
+    {
+      "role": "assistant",
+      "content": "10 个交易日内，贵州茅台股价下跌 0.83%，最大单日跌幅为 -2.50%。",
+      "request": null,
+      "schema": {
+        "stockId": "B",
+        "metrics": [
+          "price",
+          "change"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 10,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "贵州茅台",
+        "stockCode": "600519.SH",
+        "title": "贵州茅台（600519.SH）最近10天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-29 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "10/16",
+            "price": 74.83,
+            "open": 76.2,
+            "change": -1.8,
+            "volume": 1144
+          },
+          {
+            "date": "10/17",
+            "price": 75.2,
+            "open": 74.83,
+            "change": 0.5,
+            "volume": 1081
+          },
+          {
+            "date": "10/20",
+            "price": 73.32,
+            "open": 75.2,
+            "change": -2.5,
+            "volume": 1444
+          },
+          {
+            "date": "10/21",
+            "price": 74.2,
+            "open": 73.32,
+            "change": 1.2,
+            "volume": 1360
+          },
+          {
+            "date": "10/22",
+            "price": 75.98,
+            "open": 74.2,
+            "change": 2.4,
+            "volume": 1646
+          },
+          {
+            "date": "10/23",
+            "price": 75.3,
+            "open": 75.98,
+            "change": -0.9,
+            "volume": 1501
+          },
+          {
+            "date": "10/24",
+            "price": 76.58,
+            "open": 75.3,
+            "change": 1.7,
+            "volume": 863
+          },
+          {
+            "date": "10/27",
+            "price": 75.35,
+            "open": 76.58,
+            "change": -1.6,
+            "volume": 954
+          },
+          {
+            "date": "10/28",
+            "price": 75.8,
+            "open": 75.35,
+            "change": 0.6,
+            "volume": 944
+          },
+          {
+            "date": "10/29",
+            "price": 74.21,
+            "open": 75.8,
+            "change": -2.1,
+            "volume": 1213
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/20",
+            "price": 73.32,
+            "open": 75.2,
+            "change": -2.5,
+            "volume": 1444
+          },
+          {
+            "date": "10/29",
+            "price": 74.21,
+            "open": 75.8,
+            "change": -2.1,
+            "volume": 1213
+          },
+          {
+            "date": "10/16",
+            "price": 74.83,
+            "open": 76.2,
+            "change": -1.8,
+            "volume": 1144
+          }
+        ],
+        "insight": "10 个交易日内，贵州茅台股价下跌 0.83%，最大单日跌幅为 -2.50%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "ef74aae1-678a-43a7-80d5-71b78306892e",
+      "sessionId": "9866cbc9-97ab-4a34-b4d1-6871432cd44e",
+      "createdAt": "2026-10-24T12:45:50.118Z"
+    }
+  ]
+}

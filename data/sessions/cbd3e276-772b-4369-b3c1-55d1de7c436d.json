@@ -1,0 +1,313 @@
+{
+  "id": "cbd3e276-772b-4369-b3c1-55d1de7c436d",
+  "title": "分析常山北明最近 30 天的股价和成交量。",
+  "createdAt": "2026-10-24T14:27:44.106Z",
+  "updatedAt": "2026-10-24T14:27:44.162Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析常山北明最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析常山北明最近 30 天的股价和成交量。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "3640bb25-5f41-46fb-a7b8-b4ac5a0770ae",
+      "sessionId": "cbd3e276-772b-4369-b3c1-55d1de7c436d",
+      "createdAt": "2026-10-24T14:27:44.140Z"
+    },
+    {
+      "role": "assistant",
+      "content": "30 个交易日内，东方财富股价下跌 4.1%，最大单日跌幅为 -4.58%。",
+      "request": null,
+      "schema": {
+        "stockId": "A",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "东方财富",
+        "stockCode": "300059.SZ",
+        "title": "东方财富（300059.SZ）最近30天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-29 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "09/18",
+            "price": 128.17,
+            "open": 128.4,
+            "change": -0.18,
+            "volume": 825
+          },
+          {
+            "date": "09/19",
+            "price": 130.25,
+            "open": 128.17,
+            "change": 1.62,
+            "volume": 1070
+          },
+          {
+            "date": "09/22",
+            "price": 129.1,
+            "open": 130.25,
+            "change": -0.88,
+            "volume": 1080
+          },
+          {
+            "date": "09/23",
+            "price": 131.97,
+            "open": 129.1,
+            "change": 2.22,
+            "volume": 1349
+          },
+          {
+            "date": "09/24",
+            "price": 130.28,
+            "open": 131.97,
+            "change": -1.28,
+            "volume": 1321
+          },
+          {
+            "date": "09/25",
+            "price": 130.83,
+            "open": 130.28,
+            "change": 0.42,
+            "volume": 1286
+          },
+          {
+            "date": "09/26",
+            "price": 132.03,
+            "open": 130.83,
+            "change": 0.92,
+            "volume": 1455
+          },
+          {
+            "date": "09/29",
+            "price": 128.23,
+            "open": 132.03,
+            "change": -2.88,
+            "volume": 1888
+          },
+          {
+            "date": "09/30",
+            "price": 130.18,
+            "open": 128.23,
+            "change": 1.52,
+            "volume": 894
+          },
+          {
+            "date": "10/01",
+            "price": 129.42,
+            "open": 130.18,
+            "change": -0.58,
+            "volume": 894
+          },
+          {
+            "date": "10/02",
+            "price": 132.03,
+            "open": 129.42,
+            "change": 2.02,
+            "volume": 1149
+          },
+          {
+            "date": "10/03",
+            "price": 129.81,
+            "open": 132.03,
+            "change": -1.68,
+            "volume": 1210
+          },
+          {
+            "date": "10/06",
+            "price": 130.74,
+            "open": 129.81,
+            "change": 0.72,
+            "volume": 1180
+          },
+          {
+            "date": "10/07",
+            "price": 125.54,
+            "open": 130.74,
+            "change": -3.98,
+            "volume": 1746
+          },
+          {
+            "date": "10/08",
+            "price": 126.69,
+            "open": 125.54,
+            "change": 0.92,
+            "volume": 1393
+          },
+          {
+            "date": "10/09",
+            "price": 128.49,
+            "open": 126.69,
+            "change": 1.42,
+            "volume": 1568
+          },
+          {
+            "date": "10/10",
+            "price": 127.23,
+            "open": 128.49,
+            "change": -0.98,
+            "volume": 780
+          },
+          {
+            "date": "10/13",
+            "price": 130.69,
+            "open": 127.23,
+            "change": 2.72,
+            "volume": 1043
+          },
+          {
+            "date": "10/14",
+            "price": 128.36,
+            "open": 130.69,
+            "change": -1.78,
+            "volume": 1053
+          },
+          {
+            "date": "10/15",
+            "price": 129.03,
+            "open": 128.36,
+            "change": 0.52,
+            "volume": 1005
+          },
+          {
+            "date": "10/16",
+            "price": 126.09,
+            "open": 129.03,
+            "change": -2.28,
+            "volume": 1320
+          },
+          {
+            "date": "10/17",
+            "price": 127.63,
+            "open": 126.09,
+            "change": 1.22,
+            "volume": 1279
+          },
+          {
+            "date": "10/20",
+            "price": 128.04,
+            "open": 127.63,
+            "change": 0.32,
+            "volume": 1241
+          },
+          {
+            "date": "10/21",
+            "price": 122.18,
+            "open": 128.04,
+            "change": -4.58,
+            "volume": 2007
+          },
+          {
+            "date": "10/22",
+            "price": 125.14,
+            "open": 122.18,
+            "change": 2.42,
+            "volume": 1770
+          },
+          {
+            "date": "10/23",
+            "price": 123.41,
+            "open": 125.14,
+            "change": -1.38,
+            "volume": 847
+          },
+          {
+            "date": "10/24",
+            "price": 125.41,
+            "open": 123.41,
+            "change": 1.62,
+            "volume": 968
+          },
+          {
+            "date": "10/27",
+            "price": 124.43,
+            "open": 125.41,
+            "change": -0.78,
+            "volume": 975
+          },
+          {
+            "date": "10/28",
+            "price": 126.82,
+            "open": 124.43,
+            "change": 1.92,
+            "volume": 1204
+          },
+          {
+            "date": "10/29",
+            "price": 122.91,
+            "open": 126.82,
+            "change": -3.08,
+            "volume": 1460
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/21",
+            "price": 122.18,
+            "open": 128.04,
+            "change": -4.58,
+            "volume": 2007
+          },
+          {
+            "date": "10/07",
+            "price": 125.54,
+            "open": 130.74,
+            "change": -3.98,
+            "volume": 1746
+          },
+          {
+            "date": "10/29",
+            "price": 122.91,
+            "open": 126.82,
+            "change": -3.08,
+            "volume": 1460
+          }
+        ],
+        "insight": "30 个交易日内，东方财富股价下跌 4.1%，最大单日跌幅为 -4.58%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "f295ddee-2301-4d0d-8d64-033911b485ab",
+      "sessionId": "cbd3e276-772b-4369-b3c1-55d1de7c436d",
+      "createdAt": "2026-10-24T14:27:44.162Z"
+    }
+  ]
+}

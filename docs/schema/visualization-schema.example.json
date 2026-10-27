@@ -1,0 +1,16 @@
+{
+  "stockId": "A",
+  "stockName": "东方财富",
+  "stockCode": "300059.SZ",
+  "metrics": ["price", "volume"],
+  "timeRange": { "type": "recent", "value": 30, "unit": "交易日" },
+  "chartTypes": ["line", "bar", "ranking"],
+  "title": "东方财富（300059.SZ）最近30天成交量分析",
+  "requestedSource": "local",
+  "resolvedSource": "local",
+  "dataSource": "本地固定模拟数据",
+  "fallbackReason": null,
+  "dataAsOf": "2026-10-29 15:00",
+  "units": { "price": "元", "volume": "万股", "change": "%" },
+  "highlight": "跌幅最大的 3 个交易日"
+}

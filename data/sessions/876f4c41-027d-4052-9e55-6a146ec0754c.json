@@ -1,0 +1,172 @@
+{
+  "id": "876f4c41-027d-4052-9e55-6a146ec0754c",
+  "title": "分析宁德时代最近 10 天的股价走势。",
+  "createdAt": "2026-10-24T12:25:25.754Z",
+  "updatedAt": "2026-10-24T12:25:25.802Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析宁德时代最近 10 天的股价走势。",
+      "request": {
+        "request": "分析宁德时代最近 10 天的股价走势。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "6ba0beaf-7f2c-4ba1-944d-95594387839b",
+      "sessionId": "876f4c41-027d-4052-9e55-6a146ec0754c",
+      "createdAt": "2026-10-24T12:25:25.782Z"
+    },
+    {
+      "role": "assistant",
+      "content": "10 个交易日内，宁德时代股价上涨 2.41%，最大单日跌幅为 -2.52%。",
+      "request": null,
+      "schema": {
+        "stockId": "C",
+        "metrics": [
+          "price"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 10,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "宁德时代",
+        "stockCode": "300750.SZ",
+        "title": "宁德时代（300750.SZ）最近10天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-29 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "10/16",
+            "price": 43.13,
+            "open": 42.8,
+            "change": 0.78,
+            "volume": 1164
+          },
+          {
+            "date": "10/17",
+            "price": 43.94,
+            "open": 43.13,
+            "change": 1.88,
+            "volume": 1413
+          },
+          {
+            "date": "10/20",
+            "price": 43.45,
+            "open": 43.94,
+            "change": -1.12,
+            "volume": 1399
+          },
+          {
+            "date": "10/21",
+            "price": 44.48,
+            "open": 43.45,
+            "change": 2.38,
+            "volume": 1700
+          },
+          {
+            "date": "10/22",
+            "price": 44.2,
+            "open": 44.48,
+            "change": -0.62,
+            "volume": 1501
+          },
+          {
+            "date": "10/23",
+            "price": 44.9,
+            "open": 44.2,
+            "change": 1.58,
+            "volume": 905
+          },
+          {
+            "date": "10/24",
+            "price": 44.13,
+            "open": 44.9,
+            "change": -1.72,
+            "volume": 1019
+          },
+          {
+            "date": "10/27",
+            "price": 44.43,
+            "open": 44.13,
+            "change": 0.68,
+            "volume": 1000
+          },
+          {
+            "date": "10/28",
+            "price": 45.31,
+            "open": 44.43,
+            "change": 1.98,
+            "volume": 1254
+          },
+          {
+            "date": "10/29",
+            "price": 44.17,
+            "open": 45.31,
+            "change": -2.52,
+            "volume": 1431
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/29",
+            "price": 44.17,
+            "open": 45.31,
+            "change": -2.52,
+            "volume": 1431
+          },
+          {
+            "date": "10/24",
+            "price": 44.13,
+            "open": 44.9,
+            "change": -1.72,
+            "volume": 1019
+          },
+          {
+            "date": "10/20",
+            "price": 43.45,
+            "open": 43.94,
+            "change": -1.12,
+            "volume": 1399
+          }
+        ],
+        "insight": "10 个交易日内，宁德时代股价上涨 2.41%，最大单日跌幅为 -2.52%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "0ffe55c5-4b50-40f6-9e55-a8a924aeba2e",
+      "sessionId": "876f4c41-027d-4052-9e55-6a146ec0754c",
+      "createdAt": "2026-10-24T12:25:25.802Z"
+    }
+  ]
+}

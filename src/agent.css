@@ -1,0 +1,48 @@
+.line-chart {
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+  color: #48d597;
+  background: repeating-linear-gradient(0deg, transparent 0 53px, #26343c 54px);
+}
+.followup {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.65fr) 1fr auto;
+  align-items: end;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 18px 0;
+  border-top: 1px solid #26343c;
+}
+.followup small {
+  display: block;
+  color: #82909b;
+  font-size: 11px;
+  margin-top: 7px;
+}
+.followup input {
+  width: 100%;
+  min-width: 0;
+  background: #111a21;
+  border: 1px solid #33454f;
+  color: #eef5f2;
+  padding: 12px;
+}
+.followup button {
+  height: 42px;
+  background: #48d597;
+  border: 0;
+  padding: 0 16px;
+  font-weight: 700;
+}
+.followup button:disabled {
+  opacity: 0.55;
+}
+@media (max-width: 760px) {
+  .followup {
+    grid-template-columns: 1fr;
+  }
+  .followup button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "d9f3e16a-5e81-4a7c-ac33-e3ee48c2af76",
+  "title": "分析宁德时代最近 20 天的股价走势。",
+  "createdAt": "2026-10-24T12:25:17.440Z",
+  "updatedAt": "2026-10-24T12:25:17.487Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析宁德时代最近 20 天的股价走势。",
+      "request": {
+        "request": "分析宁德时代最近 20 天的股价走势。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "73d5f3af-f53f-4de5-9c29-1a74263b9b4c",
+      "sessionId": "d9f3e16a-5e81-4a7c-ac33-e3ee48c2af76",
+      "createdAt": "2026-10-24T12:25:17.463Z"
+    },
+    {
+      "role": "assistant",
+      "content": "20 个交易日内，宁德时代股价上涨 3.65%，最大单日跌幅为 -2.62%。",
+      "request": null,
+      "schema": {
+        "stockId": "C",
+        "metrics": [
+          "price"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 20,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "宁德时代",
+        "stockCode": "300750.SZ",
+        "title": "宁德时代（300750.SZ）最近20天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-29 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "10/02",
+            "price": 42.41,
+            "open": 42.8,
+            "change": -0.92,
+            "volume": 1183
+          },
+          {
+            "date": "10/03",
+            "price": 42.78,
+            "open": 42.41,
+            "change": 0.88,
+            "volume": 1270
+          },
+          {
+            "date": "10/06",
+            "price": 41.66,
+            "open": 42.78,
+            "change": -2.62,
+            "volume": 1629
+          },
+          {
+            "date": "10/07",
+            "price": 42.36,
+            "open": 41.66,
+            "change": 1.68,
+            "volume": 1585
+          },
+          {
+            "date": "10/08",
+            "price": 42.78,
+            "open": 42.36,
+            "change": 0.98,
+            "volume": 1564
+          },
+          {
+            "date": "10/09",
+            "price": 42.13,
+            "open": 42.78,
+            "change": -1.52,
+            "volume": 900
+          },
+          {
+            "date": "10/10",
+            "price": 43.22,
+            "open": 42.13,
+            "change": 2.58,
+            "volume": 1110
+          },
+          {
+            "date": "10/13",
+            "price": 43.04,
+            "open": 43.22,
+            "change": -0.42,
+            "volume": 970
+          },
+          {
+            "date": "10/14",
+            "price": 43.59,
+            "open": 43.04,
+            "change": 1.28,
+            "volume": 1166
+          },
+          {
+            "date": "10/15",
+            "price": 42.58,
+            "open": 43.59,
+            "change": -2.32,
+            "volume": 1404
+          },
+          {
+            "date": "10/16",
+            "price": 42.91,
+            "open": 42.58,
+            "change": 0.78,
+            "volume": 1285
+          },
+          {
+            "date": "10/17",
+            "price": 43.72,
+            "open": 42.91,
+            "change": 1.88,
+            "volume": 1549
+          },
+          {
+            "date": "10/20",
+            "price": 43.23,
+            "open": 43.72,
+            "change": -1.12,
+            "volume": 1524
+          },
+          {
+            "date": "10/21",
+            "price": 44.26,
+            "open": 43.23,
+            "change": 2.38,
+            "volume": 908
+          },
+          {
+            "date": "10/22",
+            "price": 43.99,
+            "open": 44.26,
+            "change": -0.62,
+            "volume": 844
+          },
+          {
+            "date": "10/23",
+            "price": 44.69,
+            "open": 43.99,
+            "change": 1.58,
+            "volume": 1037
+          },
+          {
+            "date": "10/24",
+            "price": 43.92,
+            "open": 44.69,
+            "change": -1.72,
+            "volume": 1153
+          },
+          {
+            "date": "10/27",
+            "price": 44.22,
+            "open": 43.92,
+            "change": 0.68,
+            "volume": 1120
+          },
+          {
+            "date": "10/28",
+            "price": 45.1,
+            "open": 44.22,
+            "change": 1.98,
+            "volume": 1391
+          },
+          {
+            "date": "10/29",
+            "price": 43.96,
+            "open": 45.1,
+            "change": -2.52,
+            "volume": 1575
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/06",
+            "price": 41.66,
+            "open": 42.78,
+            "change": -2.62,
+            "volume": 1629
+          },
+          {
+            "date": "10/29",
+            "price": 43.96,
+            "open": 45.1,
+            "change": -2.52,
+            "volume": 1575
+          },
+          {
+            "date": "10/15",
+            "price": 42.58,
+            "open": 43.59,
+            "change": -2.32,
+            "volume": 1404
+          }
+        ],
+        "insight": "20 个交易日内，宁德时代股价上涨 3.65%，最大单日跌幅为 -2.62%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "2670cfae-2376-4d20-a82c-2c2d2e6c629e",
+      "sessionId": "d9f3e16a-5e81-4a7c-ac33-e3ee48c2af76",
+      "createdAt": "2026-10-24T12:25:17.487Z"
+    }
+  ]
+}

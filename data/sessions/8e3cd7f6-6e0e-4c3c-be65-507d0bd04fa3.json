@@ -1,0 +1,82 @@
+{
+  "id": "8e3cd7f6-6e0e-4c3c-be65-507d0bd04fa3",
+  "title": "分析常山北明最近 30 天的股价和成交量。",
+  "createdAt": "2026-10-24T15:03:31.749Z",
+  "updatedAt": "2026-10-24T15:03:31.793Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析常山北明最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析常山北明最近 30 天的股价和成交量。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "f40d5554-817d-4b14-8b8b-eacdb3a0eedd",
+      "sessionId": "8e3cd7f6-6e0e-4c3c-be65-507d0bd04fa3",
+      "createdAt": "2026-10-24T15:03:31.775Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "abdd8aca-eddf-481d-87c1-614d30ec442e",
+      "sessionId": "8e3cd7f6-6e0e-4c3c-be65-507d0bd04fa3",
+      "createdAt": "2026-10-24T15:03:31.793Z"
+    }
+  ]
+}

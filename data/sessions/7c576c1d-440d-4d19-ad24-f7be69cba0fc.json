@@ -1,0 +1,82 @@
+{
+  "id": "7c576c1d-440d-4d19-ad24-f7be69cba0fc",
+  "title": "分析赛力斯最近 30 天的股价和成交量。",
+  "createdAt": "2026-10-24T15:03:17.219Z",
+  "updatedAt": "2026-10-24T15:03:17.269Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析赛力斯最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析赛力斯最近 30 天的股价和成交量。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "a1a5e917-131f-41b8-861c-97f950ac6c4e",
+      "sessionId": "7c576c1d-440d-4d19-ad24-f7be69cba0fc",
+      "createdAt": "2026-10-24T15:03:17.255Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "赛力斯",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "赛力斯 公司",
+        "stockCode": "",
+        "title": "赛力斯 公司（）最近30天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "924deca5-8ea2-42f5-8989-06ae583bd264",
+      "sessionId": "7c576c1d-440d-4d19-ad24-f7be69cba0fc",
+      "createdAt": "2026-10-24T15:03:17.269Z"
+    }
+  ]
+}

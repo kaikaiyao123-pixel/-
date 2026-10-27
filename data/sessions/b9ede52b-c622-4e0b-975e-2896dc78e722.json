@@ -1,0 +1,208 @@
+{
+  "id": "b9ede52b-c622-4e0b-975e-2896dc78e722",
+  "title": "查看贵州茅台近 15 个交易日的成交量变化。",
+  "createdAt": "2026-10-24T15:11:56.396Z",
+  "updatedAt": "2026-10-24T15:11:56.452Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "查看贵州茅台近 15 个交易日的成交量变化。",
+      "request": {
+        "request": "查看贵州茅台近 15 个交易日的成交量变化。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "0c6c7ebc-297a-421e-af33-f2bc3a4d66ca",
+      "sessionId": "b9ede52b-c622-4e0b-975e-2896dc78e722",
+      "createdAt": "2026-10-24T15:11:56.422Z"
+    },
+    {
+      "role": "assistant",
+      "content": "15 个交易日内，贵州茅台股价下跌 1.51%，最大单日跌幅为 -2.90%。",
+      "request": null,
+      "schema": {
+        "stockId": "B",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 15,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "贵州茅台",
+        "stockCode": "600519.SH",
+        "title": "贵州茅台（600519.SH）最近15天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "rows": [
+          {
+            "date": "10/06",
+            "price": 75.67,
+            "open": 76.2,
+            "change": -0.7,
+            "volume": 1016
+          },
+          {
+            "date": "10/07",
+            "price": 76.73,
+            "open": 75.67,
+            "change": 1.4,
+            "volume": 1195
+          },
+          {
+            "date": "10/08",
+            "price": 74.5,
+            "open": 76.73,
+            "change": -2.9,
+            "volume": 1499
+          },
+          {
+            "date": "10/09",
+            "price": 75.1,
+            "open": 74.5,
+            "change": 0.8,
+            "volume": 1301
+          },
+          {
+            "date": "10/10",
+            "price": 76.53,
+            "open": 75.1,
+            "change": 1.9,
+            "volume": 1567
+          },
+          {
+            "date": "10/13",
+            "price": 75.15,
+            "open": 76.53,
+            "change": -1.8,
+            "volume": 1653
+          },
+          {
+            "date": "10/14",
+            "price": 75.53,
+            "open": 75.15,
+            "change": 0.5,
+            "volume": 757
+          },
+          {
+            "date": "10/15",
+            "price": 73.64,
+            "open": 75.53,
+            "change": -2.5,
+            "volume": 1043
+          },
+          {
+            "date": "10/16",
+            "price": 74.52,
+            "open": 73.64,
+            "change": 1.2,
+            "volume": 1010
+          },
+          {
+            "date": "10/17",
+            "price": 76.31,
+            "open": 74.52,
+            "change": 2.4,
+            "volume": 1249
+          },
+          {
+            "date": "10/20",
+            "price": 75.62,
+            "open": 76.31,
+            "change": -0.9,
+            "volume": 1161
+          },
+          {
+            "date": "10/21",
+            "price": 76.91,
+            "open": 75.62,
+            "change": 1.7,
+            "volume": 1366
+          },
+          {
+            "date": "10/22",
+            "price": 75.68,
+            "open": 76.91,
+            "change": -1.6,
+            "volume": 1452
+          },
+          {
+            "date": "10/23",
+            "price": 76.13,
+            "open": 75.68,
+            "change": 0.6,
+            "volume": 1390
+          },
+          {
+            "date": "10/24",
+            "price": 74.53,
+            "open": 76.13,
+            "change": -2.1,
+            "volume": 1737
+          }
+        ],
+        "worst": [
+          {
+            "date": "10/08",
+            "price": 74.5,
+            "open": 76.73,
+            "change": -2.9,
+            "volume": 1499
+          },
+          {
+            "date": "10/15",
+            "price": 73.64,
+            "open": 75.53,
+            "change": -2.5,
+            "volume": 1043
+          },
+          {
+            "date": "10/24",
+            "price": 74.53,
+            "open": 76.13,
+            "change": -2.1,
+            "volume": 1737
+          }
+        ],
+        "insight": "15 个交易日内，贵州茅台股价下跌 1.51%，最大单日跌幅为 -2.90%。"
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "de58418c-3ec6-4e39-9656-69f3e4b2c2eb",
+      "sessionId": "b9ede52b-c622-4e0b-975e-2896dc78e722",
+      "createdAt": "2026-10-24T15:11:56.452Z"
+    }
+  ]
+}

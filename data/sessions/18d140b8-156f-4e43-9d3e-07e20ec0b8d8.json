@@ -1,0 +1,526 @@
+{
+  "id": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+  "title": "新建股票分析",
+  "createdAt": "2026-10-24T15:18:38.290Z",
+  "updatedAt": "2026-10-24T15:19:33.420Z",
+  "messages": [
+    {
+      "role": "user",
+      "content": "分析常山北明最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析常山北明最近 30 天的股价和成交量。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "3aba7e69-4166-4e88-a10a-ce8660635033",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:18:49.905Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "3062133c-453d-49b4-a3ff-a2eb8061371a",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:18:49.930Z"
+    },
+    {
+      "role": "user",
+      "content": "分析东方财富最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析东方财富最近 30 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "a3a5fe66-c292-49e8-8329-532b1a554058",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:18:53.947Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "skill-hub",
+        "dataSource": "问财 Skill Hub",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "7bf83cb5-7801-4824-823d-f634db0c756c",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:18:53.961Z"
+    },
+    {
+      "role": "user",
+      "content": "分析东常山最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析东常山最近 30 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "b3ecc490-e02a-4ff0-a6b4-14d512323206",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:00.005Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "skill-hub",
+        "dataSource": "问财 Skill Hub",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "24f3927b-4899-4985-999a-a9d0bdfd2f0e",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:00.018Z"
+    },
+    {
+      "role": "user",
+      "content": "分析常山最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析常山最近 30 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "e6ce73c7-3421-44c7-a8ee-78b372b4335e",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:04.151Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "skill-hub",
+        "dataSource": "问财 Skill Hub",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "664367c8-ea42-4fce-94f0-1e92cdf11c90",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:04.164Z"
+    },
+    {
+      "role": "user",
+      "content": "分析赛力斯最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析赛力斯最近 30 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "0623cfa3-edf5-41db-93ea-ccc6538f784f",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:09.974Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "skill-hub",
+        "dataSource": "问财 Skill Hub",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "f6f296fa-65a0-4665-9547-cb7210b837ea",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:09.986Z"
+    },
+    {
+      "role": "user",
+      "content": "分析赛力斯最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析赛力斯最近 30 天的股价和成交量。",
+        "source": "skill-hub"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "bb467432-4009-4201-a015-229581fe312b",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:11.761Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "skill-hub",
+        "resolvedSource": "skill-hub",
+        "dataSource": "问财 Skill Hub",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "280e52a9-64fd-4bf1-a771-9db307e48ece",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:11.772Z"
+    },
+    {
+      "role": "user",
+      "content": "分析赛力斯最近 30 天的股价和成交量。",
+      "request": {
+        "request": "分析赛力斯最近 30 天的股价和成交量。",
+        "source": "local"
+      },
+      "schema": null,
+      "dashboard": null,
+      "stages": null,
+      "mode": null,
+      "id": "871a82fc-0a37-4840-aef1-4623231a0969",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:33.407Z"
+    },
+    {
+      "role": "assistant",
+      "content": "分析完成。",
+      "request": null,
+      "schema": {
+        "stockId": "常山北明",
+        "metrics": [
+          "price",
+          "volume"
+        ],
+        "timeRange": {
+          "type": "recent",
+          "value": 30,
+          "unit": "交易日"
+        },
+        "chartTypes": [
+          "line",
+          "bar",
+          "ranking"
+        ],
+        "stockName": "常山北明 公司",
+        "stockCode": "",
+        "title": "常山北明 公司（）最近30天分析",
+        "requestedSource": "local",
+        "resolvedSource": "local",
+        "dataSource": "本地固定模拟数据",
+        "fallbackReason": null,
+        "dataAsOf": "2026-10-24 15:00",
+        "units": {
+          "price": "元",
+          "volume": "万股",
+          "change": "%"
+        },
+        "highlight": "跌幅最大的 3 个交易日"
+      },
+      "dashboard": {
+        "validation": {
+          "valid": false,
+          "errors": [
+            "暂未找到该公司的行情接口或 API Key，已生成结构化 Schema，但暂不生成图表。"
+          ]
+        },
+        "rows": [],
+        "worst": [],
+        "insight": null
+      },
+      "stages": [
+        "understanding",
+        "schema",
+        "validation",
+        "data",
+        "analysis",
+        "complete"
+      ],
+      "mode": "local-rules",
+      "id": "f549fb9a-cb94-4c9c-9f2e-3092c9974bae",
+      "sessionId": "18d140b8-156f-4e43-9d3e-07e20ec0b8d8",
+      "createdAt": "2026-10-24T15:19:33.420Z"
+    }
+  ]
+}
